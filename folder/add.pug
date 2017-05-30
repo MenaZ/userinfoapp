@@ -1,0 +1,14 @@
+html
+	head
+		title
+	body
+		h1 Hi
+		p  create new user
+		form(method='POST' action='/add')
+			input(type='text', name='firstname')
+			br 
+			input(type='text', name='lastname')
+			br
+			input(type='text', name='email')
+			br
+			input(type='submit', value='add')
